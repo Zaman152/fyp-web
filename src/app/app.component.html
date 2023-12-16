@@ -4,10 +4,10 @@
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#services">Services</a></li>
       <li><fa-icon [icon]="icon1" class="icon1"></fa-icon></li>
       <li><fa-icon [icon]="icon2" class="icon2"></fa-icon></li>
-      <li><a href="#" class="SignInbtn">Sign In</a></li>
+      <li><a routerLink="/user-auth" class="SignInbtn">Sign In</a></li>
     </ul>
   </nav>
   <div class="body-bigtext">
@@ -26,4 +26,62 @@
     <p class="watch-intro-video">Watch Intro Video</p>
   </div>
 <div class="wave"></div>
+
+
+<!-- services css -->
+<div id="services">
+  <div class="wrapper">
+    <h1 class="Ski">Services</h1>
+  </div>
+  <div class="flex-box-container">
+    <div class="box">
+      <img src="images/frame.png" />
+      <h4>Framework</h4>
+      <P>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quis magni! Iusto nemo
+        molestias,
+        quam esse exercitationem aspernatur explicabo expedita alias, delectus culpa adipisci consequatur
+        velit eaque ab odio reiciendis, corporis quasi repellat sed.
+      </P>
+    </div>
+
+    <div class="box">
+      <img src="" />
+      <h4>Database</h4>
+      <P>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quis magni! Iusto nemo
+        molestias,
+        quam esse exercitationem aspernatur explicabo expedita alias, delectus culpa adipisci consequatur
+        velit
+        eaque ab odio reiciendis, corporis quasi repellat sed.
+      </P>
+
+    </div>
+
+    <div class="box">
+
+      <img src="" />
+      <h4>Web Development</h4>
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quis magni! Iusto nemo molestias,
+        quam esse exercitationem aspernatur explicabo expedita alias, delectus culpa adipisci consequatur
+        velit
+        eaque ab odio reiciendis, corporis quasi repellat sed.
+      </P>
+
+    </div>
+
+    <div class="box">
+
+      <img src="" />
+      <h4>Android</h4>
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quis magni! Iusto nemo molestias,
+        quam esse exercitationem aspernatur explicabo expedita alias, delectus culpa adipisci consequatur
+        velit
+        eaque ab odio reiciendis, corporis quasi repellat sed.
+      </P>
+
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
 </body>
